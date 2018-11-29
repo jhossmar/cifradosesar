@@ -4,4 +4,6 @@ function pedirPalabra(){
 }
 
 
-pedirPalabra();
+var palabra = pedirPalabra();
+
+alert(palabra);
