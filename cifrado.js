@@ -4,7 +4,7 @@ function pedirPalabra(){
 }
 
 
-var palabra = pedirPalabra();
-alert(""+palabra);
+var palabra = parseStr(pedirPalabra());
+
 
 document.write(palabra+"");
