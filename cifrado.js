@@ -5,5 +5,6 @@ function pedirPalabra(){
 
 
 var palabra = pedirPalabra();
+alert(""+palabra);
 
-document.write(palabra);
+document.write(palabra+"");
