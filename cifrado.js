@@ -1,8 +1,4 @@
 
-function pedirPalabra(){
-	prompt("introducir palabra");
-}
 
-
-var palabra = parseStr(pedirPalabra());
-document.getElementById("titulo").innerHTML = palabra;
+var palaba = prompt("introducir palabra");
+document.getElementById("titulo").innerHTML = " texto introducido: "+palabra;
