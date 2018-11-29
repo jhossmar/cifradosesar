@@ -5,6 +5,4 @@ function pedirPalabra(){
 
 
 var palabra = parseStr(pedirPalabra());
-
-
-document.write(palabra+"");
+document.getElementById("titulo").innerHTML = palabra;
